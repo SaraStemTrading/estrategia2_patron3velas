@@ -145,7 +145,7 @@ rentabilidad=round(stats[6],2)
 n_operaciones=stats[17]
 ratio_aciertos=round(stats[18],2)
 drawdown=round(stats[13],2)
-resultados={'Rentabilidad':rentabilidad, 'Número de operaciones':n_operaciones, 'Ratio de aciertos (%)':ratio_aciertos, 'Máximo Dradown (%)':drawdown}
+resultados={'Rentabilidad (%)':rentabilidad, 'Número de operaciones':n_operaciones, 'Ratio de aciertos (%)':ratio_aciertos, 'Máximo Dradown (%)':drawdown}
 df_resultados = pd.DataFrame(resultados,index=['Estrategia Nº2'])
 print(df_resultados)
 
