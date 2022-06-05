@@ -4,7 +4,7 @@
 
 ## Descripción de la estrategia
 
-He programado en Python una estrategia enviada por uno de mis grupos de clase donde, tras un patrón de tres velas rojas tocando la banda inferior de Bollinger, compramos si se produce una vela verde justo después. El stop se mueve a la altura de la media simple de 25 sesiones siempre que el precio haya superado al alza la banda superior de Bollinger. Para el caso bajista es justo al revés.
+He programado en Python una estrategia de trading enviada por uno de mis grupos de clase donde, tras un patrón de tres velas rojas tocando la banda inferior de Bollinger, compramos si se produce una vela verde justo después. El stop se mueve a la altura de la media simple de 25 sesiones siempre que el precio haya superado al alza la banda superior de Bollinger. Para el caso bajista es justo al revés.
 
 ### Ejemplo de una entrada
 ![entrada](https://www.sarastem.com/wp-content/uploads/2022/06/entrada_estrategia2.png)
@@ -15,13 +15,14 @@ Para iniciar este proyecto, debemos tener descargado "Git" y "Python3" en nuestr
 - __Python3__: https://www.python.org/downloads/
 
 Además, debemos tener un entorno de desarrollo o IDE para poder abrir los archivos escritos en Python. Yo recomiendo Visual Studio Code por su simplicidad de uso. Lo puedes descargar aquí:
--__Visual Studio Code__: https://code.visualstudio.com/download
+- __Visual Studio Code__: https://code.visualstudio.com/download
 ## Visual Studio Code
 
 Una vez descargado todo, abrimos Visual Studio Code. Pinchamos en "Terminal"->"Nuevo terminal".
 Se abrirá un terminal en la parte baja donde escribiremos los siguientes pasos:
 
 1. Entramos en la carpeta donde vamos a alojar el proyecto, por ejemplo el escritorio, y escribimos el siguiente código: 
+
 `cd Desktop`
 
 2. Una vez dentro, clonamos el proyecto escribiendo lo siguiente:
@@ -84,4 +85,4 @@ Una vez rellenados los apartados anteriores, podemos ejecutar el código de nues
 
 **¡Espero que te resulte de utilidad!**
 
-**_Sara STEM_**
+**_Sara STEM | Trading Algorítmico_**
