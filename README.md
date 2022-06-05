@@ -11,10 +11,12 @@ He programado en Python una estrategia de trading enviada por uno de mis grupos 
 ## Instalación previa
 
 Para iniciar este proyecto, debemos tener descargado "Git" y "Python3" en nuestro ordenador. Los podemos encontrar en:
+
 - __Git__: https://git-scm.com/downloads
 - __Python3__: https://www.python.org/downloads/
 
 Además, debemos tener un entorno de desarrollo o IDE para poder abrir los archivos escritos en Python. Yo recomiendo Visual Studio Code por su simplicidad de uso. Lo puedes descargar aquí:
+
 - __Visual Studio Code__: https://code.visualstudio.com/download
 ## Visual Studio Code
 
@@ -63,6 +65,7 @@ Esto lo hacemos con la ayuda del archivo __"requirements.txt"__. Para su instala
 ## Parámetros de la estrategia: archivo .env 
 
 Una vez instalado todo lo anterior, y abierta la carpeta, vamos a reescribir el archivo __.env__, fundamental para la correcta ejecución de nuestra estrategia, ya que tendrá todos los datos iniciales necesarios. En concreto, son los siguientes parámetros:
+
 - __activo__: Aquí debemos poner entre comillas el ticker del activo al que queremos aplicarle la estrategia y ver el backtesting. Yo he usado el ORO (GC=F). Tienes la lista completa en la web de Yahoo Finanzas, dentro del apartado Mercados, puedes buscar el producto que quieras: https://es.finance.yahoo.com.
 - __period__: Esto solo se debe rellenar para datos intradía. Aquí debemos poner entre comillas el periodo de tiempo en el que queremos que nos muestre los datos, y debe inferior a 60 días.
 Adjunto imagen con los periodos y timeframes disponibles:
@@ -82,6 +85,16 @@ Una vez rellenados los apartados anteriores, podemos ejecutar el código de nues
 `python3 estrategia2_patron3velas.py`
 
 **_Nota:_** Recuerda que para probar otros parámetros en esta estrategia, solo debes modificar el archivo .env
+
+## Resultados
+Los resultados de esta estrategia nº2 (con  los parámetros indicados en el archivo .env), se pueden ver en el terminal de Visual Studio Code. En concreto, se verá un dataframe con los siguientes datos:
+
+- __Rentabilidad (%)__
+- __Número de operaciones__
+- __Ratio de aciertos (%)__
+- __Máximo drawdown (%)__
+
+Con toda esta información, puedes hacer pruebas y valorar los resultados para conseguir un trading rentable.
 
 **¡Espero que te resulte de utilidad!**
 
