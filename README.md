@@ -94,8 +94,8 @@ Los resultados de esta estrategia nº2 (con  los parámetros indicados en el arc
 - __Ratio de aciertos (%)__
 - __Máximo drawdown (%)__
 
-Con toda esta información, puedes hacer pruebas y valorar los resultados para conseguir hacer un trading rentable.
+Con toda esta información, puedes hacer pruebas y valorar los resultados para conseguir hacer trading rentable.
 
 **¡Espero que te resulte de utilidad!**
 
-**_Sara STEM | Trading Algorítmico_**
+**_Sara STEM | Trading Algorítmico_** 👩🏻‍💻
