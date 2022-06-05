@@ -141,3 +141,4 @@ btest = Backtest(df, estrategia2, cash=capital, commission=comision,
 stats = btest.run()
 btest.plot(open_browser=False)
 print(stats)
+
