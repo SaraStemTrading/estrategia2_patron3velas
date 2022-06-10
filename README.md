@@ -6,8 +6,6 @@
 
 He programado en Python una estrategia de trading enviada por uno de mis grupos de clase donde, tras un patrón de tres velas rojas tocando la banda inferior de Bollinger, compramos si se produce una vela verde justo después. El stop se mueve a la altura de la media simple de 25 sesiones siempre que el precio haya superado al alza la banda superior de Bollinger. Para el caso bajista es justo al revés.
 
-Yo hago mi operativa de Trading cada día con el broker XTB, con el que puedes abrir una cuenta real [aquí](https://www.xtb.com/es/abrir-cuenta-real?cxd=35312_576021&affid=35312&utm_source=affiliate&utm_medium=TextLink&utm_campaign=35312&utm_content=REAL%20GEO&utm_term=Spanish){target="_blank"}.
-
 ### Ejemplo de una entrada
 ![entrada](https://www.sarastem.com/wp-content/uploads/2022/06/entrada_estrategia2.png)
 ## Instalación previa
