@@ -34,6 +34,7 @@ if interval == '1d' or interval == '1wk' or interval == '1mo':
 else:
     df = yf.download(tickers=activo, period=period, interval=interval)
     df = df.reset_index()
+    df = df.rename({'index': 'Datetime'}, axis=1)
     df.index = pd.to_datetime(df['Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
     df = df.drop(['Datetime'], axis=1)
 df.index = pd.to_datetime(df.index)
